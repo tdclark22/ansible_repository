@@ -1,17 +1,11 @@
 [ipaclients]
-ipaclient1.mine.dom
-#ipaclient2.mine.dom
-#ipaclient3.mine.dom
-#ipaclient4.mine.dom
-#ipaclient5.mine.dom
-ipaclient6.mine.dom
-ipaclient7.mine.dom
+stella.sadiebella.net
 
-#[ipaservers]
-#ipa.mine.dom
+[ipaservers]
+sadie.sadiebella.net
 
 [ipaclients:vars]
-#ipaclient_keytab=/tmp/krb5.keytab
+ipaclient_keytab=/tmp/krb5.keytab
 #ipaclient_domain=mine.dom
 #ipaclient_realm=MINE.DOM
 #ipaadmin_principal=admin
